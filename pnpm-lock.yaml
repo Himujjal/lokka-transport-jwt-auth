@@ -5,29 +5,27 @@ specifiers:
   babel-core: 6.x.x
   babel-eslint: 4.x.x
   babel-plugin-transform-runtime: 6.x.x
-  babel-polyfill: ^6.7.2
+  babel-polyfill: 6.x.x
   babel-preset-es2015: 6.x.x
   babel-preset-stage-2: 6.x.x
   chai: 3.x.x
   eslint: 1.7.x
   eslint-plugin-babel: 2.x.x
   jsonwebtoken: ^5.7.0
-  lokka: ^1.6.1
   lokka-transport-http: github:Himujjal/lokka-transport-http
   mocha: 2.x.x
   nodemon: 1.7.x
 
 dependencies:
-  babel-polyfill: 6.26.0
   jsonwebtoken: 5.7.0
-  lokka: 1.7.0
-  lokka-transport-http: github.com/Himujjal/lokka-transport-http/a4256dd943aebd625a79dd8204b2c58ccdfbe28b_lokka@1.7.0
+  lokka-transport-http: github.com/Himujjal/lokka-transport-http/e39cbe624687767175a3eca98678723324b4bb2a
 
 devDependencies:
   babel-cli: 6.26.0
   babel-core: 6.26.3
   babel-eslint: 4.1.8
   babel-plugin-transform-runtime: 6.23.0
+  babel-polyfill: 6.26.0
   babel-preset-es2015: 6.24.1
   babel-preset-stage-2: 6.24.1
   chai: 3.5.0
@@ -767,6 +765,7 @@ packages:
       babel-runtime: 6.26.0
       core-js: 2.6.12
       regenerator-runtime: 0.10.5
+    dev: true
 
   /babel-preset-es2015/6.24.1:
     resolution: {integrity: sha1-1EBQ1rwsn+6nAqrzjXJ6AhBTiTk=}
@@ -2494,13 +2493,6 @@ packages:
     resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
     dev: true
 
-  /lokka/1.7.0:
-    resolution: {integrity: sha1-qy6DNGEtKv01mqiQR1R7194hBGw=}
-    dependencies:
-      babel-runtime: 6.26.0
-      uuid: 2.0.3
-    dev: false
-
   /longest/1.0.1:
     resolution: {integrity: sha1-MKCy2jj3N3DoKUoNIuZiXtd9AJc=}
     engines: {node: '>=0.10.0'}
@@ -3024,6 +3016,7 @@ packages:
 
   /regenerator-runtime/0.10.5:
     resolution: {integrity: sha1-M2w+/BIgrc7dosn6tntaeVWjNlg=}
+    dev: true
 
   /regenerator-runtime/0.11.1:
     resolution: {integrity: sha512-MguG95oij0fC3QV3URf4V2SDYGJhJnJGqvIIgdECeODCT98wSWDAJ94SSuVpYQUoTcGUIL6L4yNB7j1DFFHSBg==}
@@ -3589,6 +3582,7 @@ packages:
 
   /uuid/2.0.3:
     resolution: {integrity: sha1-Z+LoY3lyFVMN/zGOW/nc6/1Hsho=}
+    dev: true
 
   /v8flags/2.1.1:
     resolution: {integrity: sha1-qrGh+jDUX4jdMhFIh1rALAtV5bQ=}
@@ -3666,14 +3660,12 @@ packages:
       y18n: 3.2.2
     dev: true
 
-  github.com/Himujjal/lokka-transport-http/a4256dd943aebd625a79dd8204b2c58ccdfbe28b_lokka@1.7.0:
-    resolution: {tarball: https://codeload.github.com/Himujjal/lokka-transport-http/tar.gz/a4256dd943aebd625a79dd8204b2c58ccdfbe28b}
-    id: github.com/Himujjal/lokka-transport-http/a4256dd943aebd625a79dd8204b2c58ccdfbe28b
+  github.com/Himujjal/lokka-transport-http/e39cbe624687767175a3eca98678723324b4bb2a:
+    resolution: {tarball: https://codeload.github.com/Himujjal/lokka-transport-http/tar.gz/e39cbe624687767175a3eca98678723324b4bb2a}
     name: lokka-transport-http
     version: 1.6.2
     peerDependencies:
       lokka: 1.x.x
     dependencies:
       babel-runtime: 6.26.0
-      lokka: 1.7.0
     dev: false
