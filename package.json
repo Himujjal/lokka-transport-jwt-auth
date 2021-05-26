@@ -2,7 +2,7 @@
   "name": "lokka-transport-jwt-auth",
   "version": "1.3.2",
   "description": "HTTP transport for Lokka with JWT authentication",
-  "main": "dist/",
+  "main": "src/index.js",
   "options": {
     "mocha": "--require scripts/mocha_runner src/**/__tests__/**/*.js"
   },
